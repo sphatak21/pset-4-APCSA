@@ -3,7 +3,7 @@ public class Exercise5 {
     public static void main(String[] args){
 
         Scanner in = new Scanner(System.in);
-        System.out.print("Diameter      : ");
+        System.out.print("Diameter : ");
         double diam = in.nextDouble();
         double rad = diam/2;
         double circum = diam * Math.PI;
